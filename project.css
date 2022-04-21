@@ -57,20 +57,3 @@ body{
     
 }
 
-@media screen and (min-width:810px) {
-    #time{
-        width: 700px;
-        height: auto;
-    
-    }
-    .digit{
-        font-size: 120px;
-}
-.txt{
-    size: 100px;
-}
-.btn{
-    font-size: 30px;
-}
-    
-}
