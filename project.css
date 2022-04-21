@@ -7,6 +7,8 @@ body{
 }
 #container{
     color: #d7dfe4;
+    width: 1000px;
+
 }
 .digit{
     font-size: 150px;
@@ -37,4 +39,38 @@ body{
 }
 #reset{
   background-color: #e74c3c;
+}
+
+@media screen and (max-width:420px) {
+    #time{
+        width: 380px;
+        height: auto;
+    
+    }
+    .digit{
+        font-size: 40px;
+}
+.txt{
+    size: 50px;
+}
+
+    
+}
+
+@media screen and (min-width:810px) {
+    #time{
+        width: 700px;
+        height: auto;
+    
+    }
+    .digit{
+        font-size: 120px;
+}
+.txt{
+    size: 100px;
+}
+.btn{
+    font-size: 30px;
+}
+    
 }
